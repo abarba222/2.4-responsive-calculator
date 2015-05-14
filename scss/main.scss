@@ -1,2 +1,82 @@
 @import '../bower_components/bourbon/app/assets/stylesheets/bourbon';
+$gutter:0em;
 @import '../bower_components/neat/app/assets/stylesheets/neat';
+
+
+body {
+  background-image:url("../images/mount-rushmore.jpg");
+  background-size:cover;
+  opacity: 50%;
+  width:1200px;
+  height:auto;
+}
+
+section {
+  @include outer-container(300px);
+  /*border:5px solid red;*/
+  position: relative;
+  	transform: 			translateY(20%);
+  border:50px solid white;
+  border-opacity:50%;
+}
+
+.display {
+  position: relative;
+  height:100px;
+  background-color:rgba (208,194,185,0);
+}
+
+.display .buttons{
+  height: 25px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.buttons{
+  margin:5px;
+}
+
+nav button{
+  border-radius:10px;
+
+}
+
+.close{
+  background-color:red;
+}
+
+.minimize{
+  background-color:yellow;
+}
+
+.maximize{
+  background-color:green;
+}
+
+.calculations {
+  text-align: right;
+  margin: 0;
+  font-size:78px;
+  margin-right:5px;
+  border-radius:10px;
+}
+
+.key-pad{
+  border-style:outset;
+  border-radius:10px;
+}
+
+.keypad-button{
+  @include span-columns(3);
+  height:50px;
+  @include omega;
+  font-weight:bold;
+  font-size:20px;
+  border:2px solid white;
+  border-style: outset;
+}
+
+.zero{
+  @include span-columns(6 of 12);
+}
