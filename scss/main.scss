@@ -63,7 +63,7 @@ nav button{
   border-radius:10px;
 }
 
-.keypad-button{
+.keypad-button, .equals, .ac{
   @include span-columns(3);
   height:50px;
   @include omega;

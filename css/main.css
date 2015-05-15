@@ -57,7 +57,7 @@ nav button {
   border-style: outset;
   border-radius: 10px; }
 
-.keypad-button {
+.keypad-button, .equals, .ac {
   float: left;
   display: block;
   margin-right: 0%;
@@ -68,7 +68,7 @@ nav button {
   font-size: 20px;
   border: 2px solid white;
   border-style: outset; }
-  .keypad-button:last-child {
+  .keypad-button:last-child, .equals:last-child, .ac:last-child {
     margin-right: 0; }
 
 .zero {
