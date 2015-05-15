@@ -16,21 +16,17 @@ section {
   /*border:5px solid red;*/
   position: relative;
   	transform: 			translateY(20%);
-  border:50px solid white;
-  border-opacity:50%;
+  border:50px solid rgba(0, 0, 0, .5);
+  border-radius:10px;
 }
 
 .display {
   position: relative;
   height:100px;
-  background-color:rgba (208,194,185,0);
-}
 
-.display .buttons{
-  height: 25px;
-  position: absolute;
-  top: 0;
-  left: 0;
+  .buttons{
+
+  }
 }
 
 .buttons{
@@ -57,7 +53,7 @@ nav button{
 .calculations {
   text-align: right;
   margin: 0;
-  font-size:78px;
+  font-size:50px;
   margin-right:5px;
   border-radius:10px;
 }
@@ -79,4 +75,18 @@ nav button{
 
 .zero{
   @include span-columns(6 of 12);
+}
+
+.ac,
+.plus-minus,
+.percent{
+  background-color:red;
+}
+
+.division,
+.multiplication,
+.subtraction,
+.addition,
+.equals{
+  background-color:blue;
 }
