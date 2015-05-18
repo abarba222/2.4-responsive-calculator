@@ -38,13 +38,16 @@ nav button {
   border-radius: 10px; }
 
 .close {
-  background-color: red; }
+  background-color: red;
+  font-weight: bold; }
 
 .minimize {
-  background-color: yellow; }
+  background-color: white;
+  font-weight: bold; }
 
 .maximize {
-  background-color: green; }
+  background-color: blue;
+  font-weight: bold; }
 
 .calculations {
   text-align: right;
