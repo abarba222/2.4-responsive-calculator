@@ -20,6 +20,7 @@ function alertEquals(event){
   console.log(str);
   Equals = eval(str);
   console.log(Equals);
+  alert(Equals);
 }
 
 [].forEach.call(document.querySelectorAll('.equals'), function(element){

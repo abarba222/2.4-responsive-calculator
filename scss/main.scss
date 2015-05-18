@@ -24,6 +24,7 @@ section {
   position: relative;
   height:100px;
 
+
   .buttons{
 
   }
@@ -71,6 +72,22 @@ nav button{
   font-size:20px;
   border:2px solid white;
   border-style: outset;
+  transition: all 0.3s ease 0s;
+}
+
+.keypad-button:hover{
+  background:rgba(0,0,0,0.2);
+  color:white;
+}
+
+.equals:hover{
+  background:rgba(0,0,0,0.2);
+  color:white;
+}
+
+.ac:hover{
+  background:rgba(0,0,0,0.2);
+  color:white;
 }
 
 .zero{

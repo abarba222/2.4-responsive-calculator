@@ -67,9 +67,22 @@ nav button {
   font-weight: bold;
   font-size: 20px;
   border: 2px solid white;
-  border-style: outset; }
+  border-style: outset;
+  transition: all 0.3s ease 0s; }
   .keypad-button:last-child, .equals:last-child, .ac:last-child {
     margin-right: 0; }
+
+.keypad-button:hover {
+  background: rgba(0, 0, 0, 0.2);
+  color: white; }
+
+.equals:hover {
+  background: rgba(0, 0, 0, 0.2);
+  color: white; }
+
+.ac:hover {
+  background: rgba(0, 0, 0, 0.2);
+  color: white; }
 
 .zero {
   float: left;
