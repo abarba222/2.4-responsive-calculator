@@ -7,7 +7,7 @@ function alertButtonValue(event){
   var text = button.textContent;
   varButton.push(text);
   console.log(varButton);
-  alert(text);
+  
 }
 
 [].forEach.call(document.querySelectorAll('.keypad-button'), function(element){

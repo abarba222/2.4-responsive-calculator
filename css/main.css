@@ -95,11 +95,13 @@ nav button {
 .ac,
 .plus-minus,
 .percent {
-  background-color: red; }
+  background-color: red;
+  color: white; }
 
 .division,
 .multiplication,
 .subtraction,
 .addition,
 .equals {
-  background-color: blue; }
+  background-color: blue;
+  color: white; }
